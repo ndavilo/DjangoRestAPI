@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class ChatapiConfig(AppConfig):
+class ChatuserConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
-    name = "chatapi"
+    name = "chatuser"
