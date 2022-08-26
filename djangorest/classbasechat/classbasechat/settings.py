@@ -44,6 +44,11 @@ INSTALLED_APPS = [
     'chatapi',
 ]
 
+REST_FRAMEWORK={
+    'DEFAULT_PEGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 2
+}
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
